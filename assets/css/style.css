@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -38,6 +41,31 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px; /* Add letter spacing for better readability */
     color: #252525; /* Darker color for better contrast */
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px; /* Increase letter spacing for better readability */
+    list-style-type: none; /* Remove default list styling */
+}
+
+#menu > li {
+    margin-bottom: 1rem; /* Add space between menu items */
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a; /* Add underline to active link */
+}
+
+/*Navbar styles with dropdown toggle */
+nav {
+    position:absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left:0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display:none; /* Hide by default */
 }
 /* Main content */
 main {
