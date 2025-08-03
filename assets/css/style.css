@@ -74,6 +74,13 @@ nav {
     display: block; /* Show when toggle is checked */
 }
 
+#nav-toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.nav-toggle-label {
+    font-size: 2rem; 
+}
 /* Main content */
 main {
     background-color: lightblue;
