@@ -83,9 +83,14 @@ nav {
 }
 /* Main content */
 main {
-    background-color: lightblue;
     flex: 1 0 auto; /* Allow main to grow and fill available space */
     margin-top: 47px; /* Adjust for header height */
+}
+/* Hero section */
+#hero {
+    height: 600px; /* Set a fixed height for the hero section */
+    width: 100%; /* Full width of the screen*/
+    background: url(../images/hero-image.webp) no-repeat center center/cover; /* Background image with cover */
 }
 /* Footer */
 #social-networks {
