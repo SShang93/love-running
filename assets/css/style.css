@@ -88,8 +88,18 @@ main {
     margin-top: 47px; /* Adjust for header height */
 }
 /* Footer */
-footer {
-    background-color: lightgreen;
+#social-networks {
+    text-align:center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none; /* Remove default list styling */
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a; /* Use a consistent color for icons */
 }
 
 @media screen and (min-width: 768px) {
