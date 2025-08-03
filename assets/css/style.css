@@ -92,3 +92,25 @@ footer {
     background-color: lightgreen;
 }
 
+@media screen and (min-width: 768px) {
+  nav {
+    display:block; /* Show nav on smaller screens */
+    position: relative; /* Position relative for dropdown */
+    box-shadow: none; /* Remove shadow on smaller screens */
+    width:fit-content; /* Fit content width */
+    padding-right: 1rem; /* Add padding for better spacing */
+  }
+  
+  #menu {
+    display:flex;
+  }
+
+    #menu > li {
+        padding-left: 1rem; /* Add space between menu items */
+    }
+
+ .nav-toggle-label {
+    display: none; /* Hide toggle label on larger screens */    
+ }   
+}
+
