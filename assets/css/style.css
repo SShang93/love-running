@@ -108,6 +108,32 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color:#ffffff; /* White text color for better contrast */
 }
+
+/* Reasons section */
+#reasons {
+    width: 90%; /* Set a maximum width for the reasons section */
+    margin: 20px auto; /* Center the section */
+}
+
+#reasons h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+    font-size: 280%; /* Increase font size for better visibility */
+}
+
+#benefits-physical > div, #benefits-mental > div {
+    line-height: 20px; /* Set line height for better readability */
+    margin-bottom: 20px; /* Add space between items */
+}
+
+#benefits p {
+    padding: 0 20px; /* Add padding for better spacing */
+}
+
+hr {
+    border-top: 1px solid #3a3a3a; /* Add a solid line for horizontal rule */
+    margin: 5px 0; /* Add margin for spacing */
+}
 /* Footer */
 #social-networks {
     text-align: center;
