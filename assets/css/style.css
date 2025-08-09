@@ -174,6 +174,16 @@ hr {
     border-top: 1px solid #3a3a3a; /* Add a solid line for horizontal rule */
     margin: 5px 0; /* Add margin for spacing */
 }
+
+/*Gallery page styles */
+#photos img {
+    width: 100%; /* Make the image responsive */
+    line-height: 1em; /* Set line height for images */;
+}
+
+#photos {
+    line-height: 0; /* Remove line height for images */;
+}
 /* Footer */
 #social-networks {
     text-align: center;
