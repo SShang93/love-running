@@ -25,6 +25,9 @@ h1, h2, h3 {
     color: #252525; /* Darker color for better contrast */
 }
 
+.hidden-heading {
+    display: none; /* We hide this heading so search enginges rank the page higher and doesnt get lost in the crowd, and hiding heading improves design of the page */
+}
 /*Header*/
 header {
     background-color: #ffffff;
