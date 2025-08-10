@@ -206,6 +206,7 @@ hr {
         column-count: 2; /* Display two columns for larger screens */
         column-gap: 0; /* Remove gap between columns */;
     }
+}
 
 @media screen and (min-width: 768px) {
   nav {
@@ -278,27 +279,28 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
-  #benefits { display: flex;
-flex-direction: row;
-}
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
 
-#benefits > div {
-    flex: 1; /* Allow each benefit section to take equal space */
-}
+    #benefits > div {
+        flex: 1; /* Allow each benefit section to take equal space */
+    }
 
-#benefits-image {
-    order: 0; /* Ensure the image is first in the order */
-}
+    #benefits-image {
+        order: 0; /* Ensure the image is first in the order */
+    }
 
-#benefits-mental {
-    order: 1; /* Ensure mental benefits come second */
-}
+    #benefits-mental {
+        order: 1; /* Ensure mental benefits come second */
+    }
 
-#benefits-mental > div {
-    align-self: flex-start; /* Align mental benefits to the start */
-}
+    #benefits-mental > div {
+        align-self: flex-start; /* Align mental benefits to the start */
+    }
 
-#benefits-physical > div {
-    align-self: flex-end; /* Align physical benefits to the end */
-}
+    #benefits-physical > div {
+        align-self: flex-end; /* Align physical benefits to the end */
+    }
 }
