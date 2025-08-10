@@ -184,6 +184,7 @@ hr {
 #photos {
     line-height: 0; /* Remove line height for images */;
 }
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -199,7 +200,12 @@ hr {
     color: #3a3a3a; /* Use a consistent color for icons */
 }
 
-
+ /* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2; /* Display two columns for larger screens */
+        column-gap: 0; /* Remove gap between columns */;
+    }
 
 @media screen and (min-width: 768px) {
   nav {
@@ -244,6 +250,10 @@ hr {
     align-self: flex-end; /* Align the item to the end of the flex container */
 }
 
+/* Gallery section */
+#photos {
+    column-count: 3; /* Display three columns for larger screens */
+}
 /*Main content */
 main {
     /* Push main content below the header */
@@ -261,6 +271,10 @@ main {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a; /* Add underline on hover */
  }
+
+ /* Gallery section */
+ #photos {
+    column-count: 4; /* Display four columns for larger screens */
 }
 
 @media screen and (min-width: 1200px) {
