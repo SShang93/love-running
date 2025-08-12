@@ -350,6 +350,7 @@ main {
  #photos {
     column-count: 4; /* Display four columns for larger screens */
 }
+}
 
 @media screen and (min-width: 1200px) {
     #benefits {
